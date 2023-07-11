@@ -251,8 +251,19 @@ footer .head .logo {
 
 /* Hp  */
 @media only screen and (max-width: 428px) {
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #fff;
+  }
   .container {
     width: 100%;
+  }
+
+  .btn-list-style {
+    display: none;
   }
 
   header {
@@ -293,6 +304,16 @@ footer .head .logo {
 
   .copyright {
     font-size: 12px;
+  }
+
+  .navlist {
+    overflow: auto;
+    padding: 0 12px;
+    scroll-behavior: auto;
+  }
+
+  .list-itm ul {
+    scroll-behavior: smooth;
   }
 }
 
