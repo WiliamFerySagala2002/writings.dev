@@ -27,8 +27,9 @@ body {
 }
 
 .container {
-  width: 1236px;
+  width: 1200px;
   margin: 0 auto;
+  margin-bottom: 80px;
 }
 
 header nav {
@@ -38,17 +39,211 @@ header nav {
 }
 
 nav .logo {
-  font-size: 30px;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: normal;
 }
 
 header nav ul {
   display: flex;
-  gap: 4px;
+  gap: 42px;
   font-size: 24px;
+}
+
+header nav ul li a {
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  justify-content: center;
+  align-items: center;
+  padding: 61.28px 0 0 0;
+}
+
+.banner img {
+  width: 156px;
+}
+
+.txtBanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+}
+
+.txtLogo {
+  font-size: 52px;
+  color: #ff7575;
+  font-style: italic;
+  font-weight: 400;
+  font-family: 'Recursive', sans-serif;
+}
+
+.txtSub {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.line {
+  width: 100%;
+  height: 3px;
+  opacity: 0.20000000298023224;
+  background: #4d4d4d;
+}
+
+.navlist {
+  margin: 0 auto;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  gap: 35px;
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.btn-list-style {
+  display: flex;
+  gap: 13px;
+  justify-content: center;
+}
+
+.btn-list-style div {
+  padding: auto 0;
+}
+
+.list-itm ul {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+.list-itm ul li {
+  color: #909090;
+  font-family: Recursive;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 357.349px;
+  height: 402.247px;
+  border-radius: 22px;
+  border: 1px solid #252930;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 23px 0 0;
+  gap: 10px;
+}
+
+.card .header,
+.body,
+.footer {
+  width: 308.859px;
+}
+
+.card .body .header-body {
+  color: #0f1217;
+  color: #0f1217;
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card .body article {
+  color: #0f1217;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card .footer {
+  display: flex;
+  gap: 44px;
+}
+
+.card .footer .time,
+.card .footer .dev {
+  color: #0f1217;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 0;
+  gap: 20px;
+  border-top: 2px solid var(--ln);
+}
+
+footer .head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 0;
+}
+
+footer .head .logo {
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.medsos ul {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.medsos ul li {
+  color: #fff;
+  font-size: 24px;
+}
+
+.copyright {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
