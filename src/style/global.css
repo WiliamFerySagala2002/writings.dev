@@ -248,3 +248,52 @@ footer .head .logo {
   align-items: center;
   padding: 10px;
 }
+
+/* Hp  */
+@media only screen and (max-width: 428px) {
+  .container {
+    width: 100%;
+  }
+
+  header {
+    width: 100%;
+  }
+
+  header nav {
+    align-items: center;
+    padding: 0 5px;
+  }
+
+  header nav .logo {
+    font-size: 18px;
+    align-items: center;
+  }
+
+  header nav ul {
+    gap: 8px;
+  }
+
+  header nav ul li a {
+    font-size: 14px;
+  }
+
+  .banner img {
+    width: 84px;
+  }
+
+  .txtBanner {
+    gap: 10px;
+  }
+  .txtLogo {
+    font-size: 28px;
+  }
+  .txtSub {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  .container {
+    width: 100%;
+  }
+}
