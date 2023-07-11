@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Recursive:wght@300;400;500;600&display=swap');
+/*? global clearing */
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  color: var(--cl-1);
+  font-family: var(--ff-1);
+}
+
+:root {
+  --bg: #232830;
+  --cl-1: #fff;
+  --cl-2: #909090;
+  --cl-3: #ff7575;
+  --ln: #4d4d4d;
+  --ln-op: 0.20000000298023224;
+  --ff-1: 'Poppins', sans-serif;
+}
+
+body {
+  background: var(--bg);
+}
+
+.container {
+  width: 1236px;
+  margin: 0 auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+nav .logo {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+header nav ul {
+  display: flex;
+  gap: 4px;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
