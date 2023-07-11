@@ -290,6 +290,10 @@ footer .head .logo {
   .txtSub {
     font-size: 14px;
   }
+
+  .copyright {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 834px) {
